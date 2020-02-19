@@ -6,9 +6,9 @@
 
 //namespace APIandJSONexercise
 //{
-//    public class Kanye
+//    public class Person
 //    {
-//        public var client = new HttpClient();
+//        public var client { get; set; }
 //        public var kanyeURL = "https://api.kanye.rest";
 //        public var kanyeResponse = client.GetStringAsync(kanyeURL).Result;
 //        public var kanyeQuote = JObject.Parse(kanyeResponse).GetValue("quote").ToString();
